@@ -1,0 +1,23 @@
+---
+name: Term-Colormap
+version: 0.03
+author:
+  - 'Felix Tubiana <felixtubiana@gmail.com>'
+abstract: Colormaps for ANSI 256 Color Terminals!
+license: artistic_2
+resources:
+  license: http://opensource.org/licenses/artistic-license-2.0.php
+build_requires:
+  Test::More: 0
+requires:
+  Term::ReadKey: 0
+configure_requires:
+  Module::Build: 0
+provides:
+  Term::Colormap:
+    file: lib/Term/Colormap.pm
+    version: 0.03
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
