@@ -1,26 +1,23 @@
----
-name: Term-Colormap
-version: 0.04
-author:
-  - 'Felix Tubiana <felixtubiana@gmail.com>'
-abstract: Colormaps for ANSI 256 Color Terminals!
-license: artistic_2
-resources:
-  license: http://opensource.org/licenses/artistic-license-2.0.php
-  repository: https://github.com/xxfelixxx/perl-term-colormap
-build_requires:
-  Test::More: 0
-requires:
-  Scalar::Util: 0
-  Term::ReadKey: 0
-  perl: 5.006
+--- #YAML:1.0
+name:               Term-Colormap
+version:            0.05
+abstract:           ~
+author:  []
+license:            unknown
+distribution_type:  module
 configure_requires:
-  Module::Build: 0
-provides:
-  Term::Colormap:
-    file: lib/Term/Colormap.pm
-    version: 0.04
-generated_by: Module::Build version 0.35
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Scalar::Util:   0
+    Term::ReadKey:  0
+    Test::More:     0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
